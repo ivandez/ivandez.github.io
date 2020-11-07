@@ -9,6 +9,10 @@
 body {
   background: #343334;
 }
+
+.contenedor {
+  height: 1000px;
+}
 /*-------- NORMALIZE.CSS --------*/
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
