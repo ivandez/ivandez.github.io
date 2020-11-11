@@ -6,6 +6,7 @@ import AboutMe from "./components/about/AboutMe";
 import WorkExperience from "./components/work/WorkExperience";
 import Education from "./components/education/Education";
 import Abilities from "./components/abilities/Abilities";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
@@ -56,6 +57,7 @@ function App() {
           ]}
         ></Abilities>
       </Container>
+      <Footer></Footer>
     </div>
   );
 }

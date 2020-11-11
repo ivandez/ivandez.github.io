@@ -1,0 +1,33 @@
+.footer {
+  background: white;
+  text-align: center;
+  padding: 25px 0;
+}
+
+.footer__owner {
+  align-items: center;
+  display: flex;
+  margin: 0;
+  justify-content: center;
+}
+
+.footer__list {
+  list-style: none;
+  display: none;
+}
+
+.footer__item {
+  font-size: 26px;
+  display: inline;
+  padding: 1em;
+}
+
+@media only screen and (min-width: 768px) {
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .footer__list {
+    display: inherit;
+  }
+}
