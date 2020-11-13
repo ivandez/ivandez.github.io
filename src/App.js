@@ -6,6 +6,8 @@ import AboutMe from "./components/about/AboutMe";
 import WorkExperience from "./components/work/WorkExperience";
 import Education from "./components/education/Education";
 import Abilities from "./components/abilities/Abilities";
+import Contact from "./components/contact/Contact";
+import { FormspreeProvider } from "@formspree/react";
 import Footer from "./components/footer/Footer";
 
 function App() {
@@ -56,6 +58,11 @@ function App() {
             "Programación Orientada a Objectos",
           ]}
         ></Abilities>
+      </Container>
+      <Container title="Contactame :)">
+        <FormspreeProvider project="1545787927554949020">
+          <Contact></Contact>
+        </FormspreeProvider>
       </Container>
       <Footer></Footer>
     </div>
