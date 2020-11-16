@@ -6,6 +6,7 @@ import AboutMe from "./components/about/AboutMe";
 import WorkExperience from "./components/work/WorkExperience";
 import Education from "./components/education/Education";
 import Abilities from "./components/abilities/Abilities";
+import Diplomas from "./components/diplomas/Diplomas";
 import Contact from "./components/contact/Contact";
 import { FormspreeProvider } from "@formspree/react";
 import Footer from "./components/footer/Footer";
@@ -59,6 +60,27 @@ function App() {
           ]}
         ></Abilities>
       </Container>
+      <Container title="Diplomas">
+        <Diplomas
+          date="2019"
+          institution="222222"
+          link="Ver diploma"
+        ></Diplomas>
+        <Diplomas
+          date="2019"
+          institution="CARRERA: Desarrollo Backend con PHP"
+          link="Ver diploma"
+        ></Diplomas>
+        <Diplomas date="2019" institution="33333" link="Ver diploma"></Diplomas>
+        <Diplomas date="2019" institution="444" link="Ver diploma"></Diplomas>
+        <Diplomas date="2019" institution="5555" link="Ver diploma"></Diplomas>
+        <Diplomas
+          date="2019"
+          institution="666666"
+          link="Ver diploma"
+        ></Diplomas>
+        <Diplomas date="2019" institution="77777" link="Ver diploma"></Diplomas>
+      </Container>
       <Container title="Contactame :)">
         <FormspreeProvider project="1545787927554949020">
           <Contact></Contact>
@@ -70,3 +92,61 @@ function App() {
 }
 
 export default App;
+
+// <\                     __
+//  \\                 .~~  ~~.
+//   \\               /|~|     |
+//    \\             /======\  |
+//   //\\           |>/_\_<_=' |
+//   ~\  \          `-`__  \\__|    _
+//  <<\ \ \    ___    \..'  `--'   / ~-.
+// <<\\' )_) .+++++ _ (___.--'| _ /~-.  ~-.
+// \_\' /   x||||||| `-._    _.' /~-. ~-.  `.
+//  |   |  |X++++++|     \  /   /~-. ~-. ~-./
+//  |   `. .||||||||      []   /~-. ~-. ~-./
+//  |    |'  ++++++| :::  [] : `-. ~-. ~-.'
+//  |    `.        '  ::: []:: _.-:-. ~-/ |
+//  (_   /|     _.        []  |____~|`-'  |
+//  ||`-'| |_.-' |        |\\/|JUDGE|     `.
+//  `.___.-'     `.       ||`' \~~~/ >.    l
+//                |   ::  ||    `-' / /`---'\
+//                |    :  ||       ( [(_)[_](]
+//                |       ||       | [       ]
+//               .'       ||       |  \.---./
+//             __|________||_______|=.|____|_
+//            |: o | o |~\|%/~ o |_ o||-----|
+//            |:--'|`-'||X\/X|`-'| `-|`.  .-|
+//            `--------'  ll `-------' |  |o|
+//               |                  |  `. |_|
+//               |               :: `.  |   |
+//               |               ::  |  |  .'
+//               |         |\    ::  | .'  |
+//               |         ||     :  | |.  |
+//               `.       .'|     :  | ||..'
+//                |       | `.    :  | |'//
+//                |       |  |    : .' `='
+//                |       |  |   :: |
+//                `.      |  |   :: |
+//                 |      |  |   :: |
+//                 |_____ |  .-------.
+//                / _     `./.-- :::  \
+//               | | `----' ||        |
+//               | |        |        ||
+//                \         \.-------./
+//                 |-------||.-------.|
+//                 /-.____.||         |       I   A M   T H E   L A W
+//                  |      ||         /
+//                  `.     `:.       /
+//                   |       |      |
+//                   `,      |      |
+//                    |      |      /
+//                    `.     |     |
+//                     |     |     |  Judge Dredd
+//                     |     |     |
+//                __/  |     <     >  \
+//                 /   /     /     \
+//                /   :.___.|.'""`. |      \
+//             LS     `----//      \\    ___\
+//         /               `---------'       \
+//       _/          /
+//             /__            |________\
