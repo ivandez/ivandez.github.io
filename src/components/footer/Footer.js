@@ -17,22 +17,43 @@ function Footer() {
       <div>
         <ul className="footer__list">
           <li className="footer__item">
-            <FontAwesomeIcon
-              icon={faLinkedin}
-              className="footer__social"
-            ></FontAwesomeIcon>
+            <a
+              className="footer__link"
+              href="https://www.linkedin.com/in/iv%C3%A1n-m%C3%A9ndez-rodr%C3%ADguez-43b6b2175/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FontAwesomeIcon
+                icon={faLinkedin}
+                className="footer__social"
+              ></FontAwesomeIcon>
+            </a>
           </li>
           <li className="footer__item">
-            <FontAwesomeIcon
-              icon={faInstagram}
-              className="footer__social"
-            ></FontAwesomeIcon>
+            <a
+              className="footer__link"
+              href="https://www.instagram.com/ivan_mendez_dev"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FontAwesomeIcon
+                icon={faInstagram}
+                className="footer__social"
+              ></FontAwesomeIcon>
+            </a>
           </li>
           <li className="footer__item">
-            <FontAwesomeIcon
-              icon={faGithub}
-              className="footer__social"
-            ></FontAwesomeIcon>
+            <a
+              className="footer__link"
+              href="https://github.com/ivandez"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FontAwesomeIcon
+                icon={faGithub}
+                className="footer__social"
+              ></FontAwesomeIcon>
+            </a>
           </li>
         </ul>
       </div>
