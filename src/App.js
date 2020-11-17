@@ -16,10 +16,10 @@ function App() {
     <div className="App">
       <NavBar></NavBar>
       <Hero></Hero>
-      <Container title="Sobre mí">
+      <Container title="Sobre mí" id="about">
         <AboutMe></AboutMe>
       </Container>
-      <Container title="Experiencia laboral">
+      <Container title="Experiencia laboral" id="work-experience">
         <WorkExperience
           date="Oct 2019 – Mar 2020"
           company="Founduss"
@@ -27,7 +27,7 @@ function App() {
           jobDescription="Cree un sistema automatizado de reserva de servicios empresariales, cree una BBDD SQL, cree una API rest para una app movil."
         ></WorkExperience>
       </Container>
-      <Container title="Educacíon">
+      <Container title="Educacíon" id="education">
         <Education
           institution="U.E.P María Francia"
           date="2013-2020"
@@ -39,7 +39,7 @@ function App() {
           degree="Técnico Superior en Informática"
         />
       </Container>
-      <Container title="Habilidades">
+      <Container title="Habilidades" id="abilities">
         <Abilities
           abilities={[
             "HTML5",
@@ -60,7 +60,7 @@ function App() {
           ]}
         ></Abilities>
       </Container>
-      <Container title="Diplomas">
+      <Container title="Diplomas" id="diplomas">
         <Diplomas
           date="2019"
           institution="222222"
@@ -81,7 +81,7 @@ function App() {
         ></Diplomas>
         <Diplomas date="2019" institution="77777" link="Ver diploma"></Diplomas>
       </Container>
-      <Container title="Contactame :)">
+      <Container title="Contactame :)" id="contact">
         <FormspreeProvider project="1545787927554949020">
           <Contact></Contact>
         </FormspreeProvider>

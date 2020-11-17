@@ -26,16 +26,15 @@ const Container = (props) => {
     }
 
     return (
-      <div className="container">
+      <div className="container" id={props.id}>
         <h1 className="container__title">{props.title}</h1>
         {children}
         <div className={className}>{childrenToHide}</div>
-        <button onClick={() => setIsOpen(!open)}>ver mas</button>
       </div>
     );
   } else {
     return (
-      <div className="container">
+      <div className="container" id={props.id}>
         <h1 className="container__title">{props.title}</h1>
         {props.children}
       </div>
