@@ -1,12 +1,12 @@
 import React from "react";
 import "./hero.css";
+import { Link } from "react-scroll";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faInstagram,
   faLinkedin,
   faGithub,
 } from "@fortawesome/free-brands-svg-icons";
-
 const Hero = (props) => {
   return (
     <section className="hero">
@@ -17,22 +17,40 @@ const Hero = (props) => {
         <div className="hero__socials">
           <ul className="hero__list">
             <li className="hero__item">
-              <FontAwesomeIcon
-                icon={faLinkedin}
-                className="hero__social"
-              ></FontAwesomeIcon>
+              <a
+                className="hero__link"
+                href="https://www.linkedin.com/in/iv%C3%A1n-m%C3%A9ndez-rodr%C3%ADguez-43b6b2175/"
+                target="_blank"
+              >
+                <FontAwesomeIcon
+                  icon={faLinkedin}
+                  className="hero__social"
+                ></FontAwesomeIcon>
+              </a>
             </li>
             <li className="hero__item">
-              <FontAwesomeIcon
-                icon={faInstagram}
-                className="hero__social"
-              ></FontAwesomeIcon>
+              <a
+                className="hero__link"
+                href="https://www.instagram.com/ivan_mendez_dev"
+                target="_blank"
+              >
+                <FontAwesomeIcon
+                  icon={faInstagram}
+                  className="hero__social"
+                ></FontAwesomeIcon>
+              </a>
             </li>
             <li className="hero__item">
-              <FontAwesomeIcon
-                icon={faGithub}
-                className="hero__social"
-              ></FontAwesomeIcon>
+              <a
+                className="hero__link"
+                href="https://github.com/ivandez"
+                target="_blank"
+              >
+                <FontAwesomeIcon
+                  icon={faGithub}
+                  className="hero__social"
+                ></FontAwesomeIcon>
+              </a>
             </li>
           </ul>
         </div>
