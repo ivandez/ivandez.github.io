@@ -26,6 +26,12 @@ function App() {
           job="desarrollador backend con laravel"
           jobDescription="Cree un sistema automatizado de reserva de servicios empresariales, cree una BBDD SQL, cree una API rest para una app movil."
         ></WorkExperience>
+        <WorkExperience
+          date="Nov 2020 – Nov 2020"
+          company="Traductoridiomasmayas"
+          job="Base de datos"
+          jobDescription="Desarrolle una BBDD sql para guardar traducciones realizadas por los usuarios."
+        ></WorkExperience>
       </Container>
       <Container title="Educacíon" id="education">
         <Education
