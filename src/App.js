@@ -5,6 +5,7 @@ import Container from "./components/container/Container";
 import AboutMe from "./components/about/AboutMe";
 import WorkExperience from "./components/work/WorkExperience";
 import Education from "./components/education/Education";
+import Project from "./components/project/Project";
 import Abilities from "./components/abilities/Abilities";
 import Diplomas from "./components/diplomas/Diplomas";
 import Contact from "./components/contact/Contact";
@@ -44,6 +45,39 @@ function App() {
           date="2018 - presente"
           degree="Técnico Superior en Informática"
         />
+      </Container>
+      <Container title="Proyectos" id="project">
+        <Project
+          title="Portafolio en React"
+          description="Portafolio desarrollado en React.js junto a otros modulos de npm para poder mostrar mí trabajo en la industria tec."
+          repository="https://github.com/ivandez/portafolio-react"
+          img="https://user-images.githubusercontent.com/38108288/99752497-d160d580-2aba-11eb-9bd3-5d9475203793.png"
+        ></Project>
+        <Project
+          title="To do Angular"
+          description="Aplicación To Do que desarrolle en angular para practicar mis conocimientos."
+          repository="https://github.com/ivandez/angular-to-do-app"
+          img="https://user-images.githubusercontent.com/38108288/99752694-2bfa3180-2abb-11eb-9a47-ff6267654536.png"
+        ></Project>
+        <Project
+          title="Aplicación de gestión de gastos"
+          description="Aplicación que te permite gestionar tus gastos que desarrolle para practicar mis conocimientos."
+          repository="https://github.com/ivandez/expense-reports"
+          img="https://user-images.githubusercontent.com/38108288/99753193-2e10c000-2abc-11eb-9bde-99f37ee9a1e6.png"
+        ></Project>
+        <Project
+          title="Panel de COVID en Express.js"
+          description="Aplicación que consulta una API para mostrar los casos de COVID a nivel mundial."
+          repository="https://github.com/ivandez/covid-dashboard-expressjs"
+          img="https://user-images.githubusercontent.com/38108288/99753671-138b1680-2abd-11eb-8451-e84fc904759f.png"
+        ></Project>
+        <Project
+          title="Web de conferencia"
+          description="Pagina web que simula una conferencia desarrollada en bootstrap."
+          repository="https://github.com/ivandez/PlatziConfHawaii"
+          img="https://user-images.githubusercontent.com/38108288/99753502-b0997f80-2abc-11eb-8b5f-bd4a8ab1222d.png"
+          link="https://ivandez.github.io/PlatziConfHawaii/"
+        ></Project>
       </Container>
       <Container title="Habilidades" id="abilities">
         <Abilities
