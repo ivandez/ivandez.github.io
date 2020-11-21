@@ -35,7 +35,14 @@
 
 .hero__link {
   color: white;
+  transition: 0.5s ease all;
 }
+
+.hero__link:hover {
+  color: var(--primaryColor);
+  font-size: 46px;
+}
+
 @media only screen and (min-width: 768px) {
   .hero {
     background-attachment: scroll;
