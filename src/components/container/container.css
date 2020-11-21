@@ -15,3 +15,15 @@
 .show-children {
   display: block;
 }
+
+.container__show-more {
+  text-align: center;
+}
+
+.container__button {
+  color: white;
+  font-size: 26px;
+  cursor: pointer;
+  background: none;
+  border: none;
+}
