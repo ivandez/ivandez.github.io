@@ -8,7 +8,7 @@ function Contact() {
   }
   return (
     <div className="contact">
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit} className="contact__container">
         {/* <h2 className="contact__title">
           Contactame{" "}
           <span role="img" aria-label="smile emoji">
