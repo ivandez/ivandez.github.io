@@ -37,7 +37,7 @@ function App() {
       <Container title="Educacíon" id="education">
         <Education
           institution="U.E.P María Francia"
-          date="2013-2020"
+          date="2012-2017"
           degree="Bachiller en ciencias"
         ></Education>
         <Education
