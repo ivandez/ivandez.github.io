@@ -6,7 +6,7 @@
 
 .navbar__home {
   font-family: "Permanent Marker", cursive;
-  font-size: 1.3em;
+  font-size: 1.4em;
 }
 
 /* .navbar__list {
@@ -18,12 +18,14 @@
 .navbar__link {
   display: none;
   font-family: "Lato", sans-serif;
+  font-size: 1.2em;
+  cursor: pointer;
   margin: 8px;
 }
 
-.navbar__link:hover {
+/* .navbar__link:hover {
   background: var(--secondaryColor);
-}
+} */
 
 .navbar__link--show {
   display: block;
