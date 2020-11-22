@@ -27,13 +27,12 @@ const AboutMe = (props) => {
 
         <p>
           A día de hoy me siento con el suficiente conocimiento como para poder
-          empezar mi carrera en IT sin haberme graduado todavía, mi empleo ideal
-          seria aquel en donde yo busque soluciones a problemas propuestos por
-          el cliente, y que dichas soluciones sean aplicadas a la web, donde yo
-          forme parte del desarrollo front-end y back-end, donde la empresa me
-          permita nutrirme profesionalmente rodeándome de programadores senior,
-          donde tenga la posibilidad de viajar y en donde el horario de trabajo
-          sea flexible.
+          empezar mi carrera en IT, mi empleo ideal seria aquel en donde yo
+          busque soluciones a problemas propuestos por el cliente, y que dichas
+          soluciones sean aplicadas a la web, donde yo forme parte del
+          desarrollo front-end y back-end, donde la empresa me permita nutrirme
+          profesionalmente rodeándome de programadores senior, donde tenga la
+          posibilidad de viajar y en donde el horario de trabajo sea flexible.
         </p>
       </div>
     </div>
