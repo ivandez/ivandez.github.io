@@ -1,4 +1,5 @@
 import React from "react";
+import { animateScroll as scroll } from "react-scroll";
 import "./footer.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -17,6 +18,7 @@ function Footer() {
       </div>
       <div className="footer__up-arrow">
         <FontAwesomeIcon
+          onClick={() => scroll.scrollToTop(1000)}
           icon={faArrowCircleUp}
           className="footer__social"
         ></FontAwesomeIcon>
