@@ -34,9 +34,9 @@
 
 .navbar__toggler {
   border: none;
-  border-color: initial;
+  /* border-color: initial;
   border-style: none;
-  border-width: initial;
+  border-width: initial; */
   color: white;
   background: initial;
   font-size: 1.3em;
