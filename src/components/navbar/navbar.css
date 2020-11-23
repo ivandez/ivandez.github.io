@@ -33,6 +33,7 @@
 }
 
 .navbar__toggler {
+  border: none;
   border-color: initial;
   border-style: none;
   border-width: initial;

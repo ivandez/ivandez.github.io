@@ -11,6 +11,8 @@
 .project_img {
   width: 300px;
   height: 300px;
+
+  display: none;
 }
 
 .project__info {
@@ -42,20 +44,8 @@
   text-decoration: underline;
 }
 
-/* .education__institution {
-  font-weight: 500;
-  margin: 0;
-  color: #374054;
-} */
-
-/* .education__date {
-  color: #74808a;
-  float: right;
-} */
-
-/* .education__degree {
-  color: #74808a;
-  clear: both;
-  font-weight: 500;
-  margin: 0 0 15px 0;
-} */
+@media (min-width: 768px) {
+  .project_img {
+    display: initial;
+  }
+}
