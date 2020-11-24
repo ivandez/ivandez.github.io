@@ -12,7 +12,7 @@ const Hero = (props) => {
       <div className="hero-inner hero__container">
         <h1 className="hero__title">Iván Méndez</h1>
         <h2 className="hero__degree">Técnico Superior en Informática</h2>
-        <h2 className="hero__degree">"Informatico autodidacta"</h2>
+        <h2 className="hero__degree">"Informático autodidacta"</h2>
         <div className="hero__socials">
           <ul className="hero__list">
             <li className="hero__item">
