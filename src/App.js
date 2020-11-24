@@ -96,7 +96,7 @@ function App() {
             "Ubuntu",
             "Vagrant/VirtualBox",
             "MVC",
-            "Programación Orientada a Objectos",
+            "Programación Orientada a Objetos",
           ]}
         ></Abilities>
       </Container>
