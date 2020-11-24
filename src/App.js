@@ -34,7 +34,7 @@ function App() {
           jobDescription="Desarrolle una BBDD sql para guardar traducciones realizadas por los usuarios."
         ></WorkExperience>
       </Container>
-      <Container title="Educacíon" id="education">
+      <Container title="Educación" id="education">
         <Education
           institution="U.E.P María Francia"
           date="2012-2017"
