@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* NavBar.js */
+.navbar__link {
+  @apply capitalize hover:bg-gray-700 
+  hover:text-white rounded-md px-2 transition duration-300 lg:inline;
+}

@@ -1,54 +1,46 @@
-import React, { useState } from "react";
-import { Link } from "react-scroll";
-import "./navbar.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
+import React, { useState } from "react";
 
-const NavBar = (props) => {
+const NavBar = () => {
   const [open, setIsOpen] = useState(false);
 
-  let className = "navbar__link";
+  let className = "hidden px-3 text-xl lg:inline-block";
 
   if (open === true) {
-    className = "navbar__link--show";
+    className = "px-3 text-xl lg:inline-block";
   }
 
-  return (
-    <nav className="navbar">
-      <Link to="home" smooth={true} duration={1500} className="navbar__home">
-        Iván Méndez
-      </Link>
-      <Link to="about" smooth={true} duration={1500} className={className}>
-        Sobre mí
-      </Link>
-      <Link
-        to="work-experience"
-        smooth={true}
-        duration={1500}
-        className={className}
-      >
-        Experiencia laboral
-      </Link>
-      <Link to="education" smooth={true} duration={1500} className={className}>
-        Educación
-      </Link>
-      <Link to="project" smooth={true} duration={1500} className={className}>
-        Proyectos
-      </Link>
-      <Link to="abilities" smooth={true} duration={1500} className={className}>
-        Habilidades
-      </Link>
-      <Link to="diplomas" smooth={true} duration={1500} className={className}>
-        Diplomas
-      </Link>
-      <Link to="contact" smooth={true} duration={1500} className={className}>
-        Contactame
-      </Link>
+  /**
+   * TODO
+   * 1 mover el menu de hamburgesa a la darecha del todo LISTO
+   * 2 hacer mas suave la animacion de abrir el menu
+   * 3 Crear el menu de desktop LISTO
+   * 4 aumentar de tamaño el menu hamburgesa
+   */
 
-      <button onClick={() => setIsOpen(!open)} className="navbar__toggler">
-        <FontAwesomeIcon icon={faBars} />
-      </button>
-    </nav>
+  return (
+    <div className="bg-myColor p-2">
+      <navbar className="text-white lg:inline-block">
+        <div className="grid grid-rows-1 grid-cols-2 lg:inline">
+          <span className="text-2xl font-permanentMarker">Iván Méndez</span>
+          <FontAwesomeIcon
+            icon={faBars}
+            onClick={() => setIsOpen(!open)}
+            className="self-center justify-self-end lg:hidden"
+          />
+        </div>
+        <div className="lg:inline-block">
+          <ul className={className}>
+            <li className="navbar__link">sobre mí</li>
+            <li className="navbar__link">experiencia laboral</li>
+            <li className="navbar__link">educación</li>
+            <li className="navbar__link">proyectos</li>
+            <li className="navbar__link">habilidades</li>
+          </ul>
+        </div>
+      </navbar>
+    </div>
   );
 };
 
