@@ -1,11 +1,13 @@
 import "./App.css";
 import NavBar from "./components/navbar/NavBar";
-import { FormspreeProvider } from "@formspree/react";
+import Hero from "./components/Hero"
+// import { FormspreeProvider } from "@formspree/react";
 
 function App() {
   return (
     <div className="App">
       <NavBar />
+      <Hero/>
     </div>
   );
 }

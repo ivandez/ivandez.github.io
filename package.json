@@ -26,6 +26,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "build": "craco build",
+    "build:css": "tailwindcss build ./src/App.css -o ./public/styles.css",
     "test": "craco test",
     "eject": "react-scripts eject"
   },
