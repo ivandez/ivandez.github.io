@@ -9,6 +9,11 @@
 body{
   @apply bg-myBgColor font-codePro;
 }
+
+.centerContainer{
+  @apply m-auto w-11/12 pt-3;
+}
+
 /* NavBar.js */
 .navbar__link {
   @apply capitalize hover:bg-gray-700 
