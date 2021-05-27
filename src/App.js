@@ -1,6 +1,7 @@
 import "./App.css";
 import NavBar from "./components/navbar/NavBar";
 import Hero from "./components/Hero"
+import AboutMe from "./components/AboutMe"
 // import { FormspreeProvider } from "@formspree/react";
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <div className="App">
       <NavBar />
       <Hero/>
+      <AboutMe/>
     </div>
   );
 }

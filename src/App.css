@@ -1,9 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+body{
+  @apply bg-myBgColor font-codePro;
+}
 /* NavBar.js */
 .navbar__link {
   @apply capitalize hover:bg-gray-700 
