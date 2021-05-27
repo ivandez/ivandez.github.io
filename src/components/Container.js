@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import "./container.css";
 
 const Container = (props) => {
   const [open, setIsOpen] = useState(false);
@@ -43,8 +42,8 @@ const Container = (props) => {
     );
   } else {
     return (
-      <div className="container" id={props.id}>
-        <h1 className="container__title">{props.title}</h1>
+      <div className="container centerContainer" id={props.id}>
+        <h1 className="container__title text-white text-3xl font-bold">{props.title}</h1>
         {props.children}
       </div>
     );
