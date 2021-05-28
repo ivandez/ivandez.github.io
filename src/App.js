@@ -4,6 +4,7 @@ import Hero from "./components/Hero";
 import AboutMe from "./components/AboutMe";
 import Container from "./components/Container";
 import WorkExperience from "./components/WorkExperience";
+import Education from "./components/Education"
 // import { FormspreeProvider } from "@formspree/react";
 
 function App() {
@@ -47,6 +48,14 @@ function App() {
           job="desarrollador backend con laravel"
           jobDescription="Desarrolle una API para una aplicación móvil."
         ></WorkExperience>
+        
+      </Container>
+
+      <Container title="Formación" id="education" idForScroll="educationScroll">
+
+        <Education institution="U.E.P María Francia" degree="Bachiller en ciencias"></Education>
+
+        <Education institution="Instituto Universitario Antonio Jose de Sucre" degree="Técnico Superior en Informática"></Education>
         
       </Container>
     </div>
