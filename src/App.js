@@ -3,7 +3,7 @@ import NavBar from "./components/navbar/NavBar";
 import Hero from "./components/Hero";
 import AboutMe from "./components/AboutMe";
 import Container from "./components/Container";
-import WorkExperience from "./components/work/WorkExperience";
+import WorkExperience from "./components/WorkExperience";
 // import { FormspreeProvider } from "@formspree/react";
 
 function App() {
