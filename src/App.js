@@ -15,7 +15,7 @@ function App() {
 
       <AboutMe />
 
-      <Container title="Experiencia laboral" id="work-experience">
+      <Container title="Experiencia laboral" id="work-experience" idForScroll="workExperience">
 
         <WorkExperience
           date="Oct 2019 – Mar 2020"
@@ -44,18 +44,6 @@ function App() {
         <WorkExperience
           date="Mar 2021 – Abr 2021"
           company="Workana"
-          job="desarrollador backend con laravel"
-          jobDescription="Desarrolle una API para una aplicación móvil."
-        ></WorkExperience>
-        <WorkExperience
-          date="Mar 2021 – Abr 2021"
-          company="penultimo elemento"
-          job="desarrollador backend con laravel"
-          jobDescription="Desarrolle una API para una aplicación móvil."
-        ></WorkExperience>
-        <WorkExperience
-          date="Mar 2021 – Abr 2021"
-          company="ultimo elemento"
           job="desarrollador backend con laravel"
           jobDescription="Desarrolle una API para una aplicación móvil."
         ></WorkExperience>

@@ -1,4 +1,19 @@
 import React, { useState } from "react";
+import { bounceInLeft } from "react-animations";
+import Radium, { StyleRoot } from "radium";
+import { Link, animateScroll as scroll } from "react-scroll";
+
+const styles = {
+  bounce: {
+    animation: "x 2s",
+    animationName: Radium.keyframes(bounceInLeft, "bounceInLeft"),
+  },
+};
+
+/**
+ * TODO
+ *  1 add bounce out in right when hidden children
+ */
 
 /**
  *
@@ -20,9 +35,20 @@ const Container = (props) => {
   let childrenCount = React.Children.count(props.children);
 
   if (childrenCount > 5) {
-    return <HasMoreThanFiveChildren containerChildren={props.children} />;
+    return (
+      <HasMoreThanFiveChildren
+        containerChildren={props.children}
+        idForScroll={props.idForScroll}
+      />
+    );
   } else {
-    return <HasLessThanFiveChildren id={props.id} title={props.title} containerChildren={props.children}/>;
+    return (
+      <HasLessThanFiveChildren
+        id={props.id}
+        title={props.title}
+        containerChildren={props.children}
+      />
+    );
   }
 
   function HasLessThanFiveChildren(props) {
@@ -47,14 +73,23 @@ const Container = (props) => {
           {props.title}
         </h1>
         {childrenToShow}
-        <div className={open ? "block" : "hidden"}>{childrenToHide}</div>
+        <StyleRoot>
+          <div className={open ? "block" : "hidden"} style={styles.bounce}>
+            {childrenToHide}
+          </div>
+        </StyleRoot>
         <div className="container__show-more text-center">
-          <button
-            className="container__button text-white text-2xl my-1"
-            onClick={() => setIsOpen(!open)}
+          <Link
+            className="text-white text-2xl my-1 cursor-pointer"
+            onClick={() => {
+              setIsOpen(!open);
+            }}
+            id={props.idForScroll}
+            to={props.idForScroll}
+            smooth={true}
           >
             {`${texto} (${childrenToHide.length})`}
-          </button>
+          </Link>
         </div>
       </div>
     );
