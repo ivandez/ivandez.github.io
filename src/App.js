@@ -47,6 +47,18 @@ function App() {
           job="desarrollador backend con laravel"
           jobDescription="Desarrolle una API para una aplicación móvil."
         ></WorkExperience>
+        <WorkExperience
+          date="Mar 2021 – Abr 2021"
+          company="penultimo elemento"
+          job="desarrollador backend con laravel"
+          jobDescription="Desarrolle una API para una aplicación móvil."
+        ></WorkExperience>
+        <WorkExperience
+          date="Mar 2021 – Abr 2021"
+          company="ultimo elemento"
+          job="desarrollador backend con laravel"
+          jobDescription="Desarrolle una API para una aplicación móvil."
+        ></WorkExperience>
         
       </Container>
     </div>

@@ -55,10 +55,10 @@ const Container = (props) => {
     //     {props.children}
     //   </div>
     // );
-    return HasLessThatFiveChildren(props)
+    return HasLessThanFiveChildren(props)
   }
 
-  function HasLessThatFiveChildren(props) {
+  function HasLessThanFiveChildren(props) {
     return (
       <div className="container centerContainer" id={props.id}>
         <h1 className="text-white text-3xl font-bold">
