@@ -6,6 +6,8 @@ import Container from "./components/Container";
 import WorkExperience from "./components/WorkExperience";
 import Education from "./components/Education";
 import Project from "./components/Project";
+import Abilities from "./components/Abilities";
+
 // import { FormspreeProvider } from "@formspree/react";
 
 function App() {
@@ -93,6 +95,23 @@ function App() {
           repository="https://github.com/ivandez/angular-to-do-app"
           img="https://user-images.githubusercontent.com/38108288/99752694-2bfa3180-2abb-11eb-9a47-ff6267654536.png"
         ></Project>
+      </Container>
+      <Container title="Habilidades" id="abilities">
+        <Abilities
+          abilities={[
+            "HTML5",
+            "CSS3",
+            "JavaScript",
+            "Node.js",
+            "React.js",
+            "PHP",
+            "Laravel",
+            "SQL/MySQL Workbench",
+            "Git/Github",
+            "Inglés",
+            "Ubuntu",
+          ]}
+        ></Abilities>
       </Container>
     </div>
   );
