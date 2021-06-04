@@ -1,5 +1,5 @@
 import React from "react";
-import "./project.css";
+// import "./project.css";
 
 const Project = (props) => {
   let link;
@@ -22,8 +22,8 @@ const Project = (props) => {
     link = null;
   }
   return (
-    <div className="project">
-      <div>
+    <div className="project flex items-center bg-white text-center p-3 my-2">
+      <div className="">
         <img
           className="project_img"
           src={props.img}
@@ -31,10 +31,10 @@ const Project = (props) => {
         ></img>
       </div>
       <div className="project__info">
-        <h2 className="project__title">{props.title}</h2>
-        <p className="project__description">{props.description}</p>
+        <h2 className="text-xl">{props.title}</h2>
+        <p className="text-gray-500 my-2 leading-tight">{props.description}</p>
         <a
-          className="proyect__link"
+          className="text-myColor"
           href={props.repository}
           target="_blank"
           rel="noreferrer"

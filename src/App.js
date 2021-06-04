@@ -4,7 +4,8 @@ import Hero from "./components/Hero";
 import AboutMe from "./components/AboutMe";
 import Container from "./components/Container";
 import WorkExperience from "./components/WorkExperience";
-import Education from "./components/Education"
+import Education from "./components/Education";
+import Project from "./components/Project";
 // import { FormspreeProvider } from "@formspree/react";
 
 function App() {
@@ -16,8 +17,11 @@ function App() {
 
       <AboutMe />
 
-      <Container title="Experiencia laboral" id="work-experience" idForScroll="workExperience">
-
+      <Container
+        title="Experiencia laboral"
+        id="work-experience"
+        idForScroll="workExperience"
+      >
         <WorkExperience
           date="Oct 2019 – Mar 2020"
           company="Founduss"
@@ -48,15 +52,39 @@ function App() {
           job="desarrollador backend con laravel"
           jobDescription="Desarrolle una API para una aplicación móvil."
         ></WorkExperience>
-        
       </Container>
 
       <Container title="Formación" id="education" idForScroll="educationScroll">
+        <Education
+          institution="U.E.P María Francia"
+          degree="Bachiller en ciencias"
+        ></Education>
 
-        <Education institution="U.E.P María Francia" degree="Bachiller en ciencias"></Education>
+        <Education
+          institution="Instituto Universitario Antonio Jose de Sucre"
+          degree="Técnico Superior en Informática"
+        ></Education>
+      </Container>
 
-        <Education institution="Instituto Universitario Antonio Jose de Sucre" degree="Técnico Superior en Informática"></Education>
-        
+      <Container title="Proyectos" id="proyectos">
+        <Project
+        title="Aplicación de gestión de gastos"
+          description="Aplicación que te permite gestionar tus gastos que desarrolle para practicar mis conocimientos."
+          repository="https://github.com/ivandez/expense-reports"
+          img="https://user-images.githubusercontent.com/38108288/99753193-2e10c000-2abc-11eb-9bde-99f37ee9a1e6.png"
+          ></Project>
+          <Project
+        title="Aplicación de gestión de gastos"
+          description="Aplicación que te permite gestionar tus gastos que desarrolle para practicar mis conocimientos."
+          repository="https://github.com/ivandez/expense-reports"
+          img="https://user-images.githubusercontent.com/38108288/99753193-2e10c000-2abc-11eb-9bde-99f37ee9a1e6.png"
+          ></Project>
+          <Project
+        title="Aplicación de gestión de gastos"
+          description="Aplicación que te permite gestionar tus gastos que desarrolle para practicar mis conocimientos."
+          repository="https://github.com/ivandez/expense-reports"
+          img="https://user-images.githubusercontent.com/38108288/99753193-2e10c000-2abc-11eb-9bde-99f37ee9a1e6.png"
+          ></Project>
       </Container>
     </div>
   );
