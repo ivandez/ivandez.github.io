@@ -39,6 +39,7 @@ const Container = (props) => {
       <HasMoreThanFiveChildren
         containerChildren={props.children}
         idForScroll={props.idForScroll}
+        title={props.title}
       />
     );
   } else {
