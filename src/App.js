@@ -7,6 +7,7 @@ import WorkExperience from "./components/WorkExperience";
 import Education from "./components/Education";
 import Project from "./components/Project";
 import Abilities from "./components/Abilities";
+import Diplomas from "./components/Diplomas";
 
 // import { FormspreeProvider } from "@formspree/react";
 
@@ -112,6 +113,73 @@ function App() {
             "Ubuntu",
           ]}
         ></Abilities>
+      </Container>
+      <Container title="Diplomas">
+          <Diplomas
+          date="2019"
+          title="CARRERA: Desarrollo Backend con PHP"
+          link="https://platzi.com/@ivan-mendez/carrera/57-desarrollo-php/diploma/detalle/"
+        ></Diplomas>
+        <Diplomas
+          date="2019"
+          title="Fundamentos de Ingeniería de Software"
+          link="https://platzi.com/@ivan-mendez/curso/1098-ingenieria/diploma/detalle/"
+        ></Diplomas>
+        <Diplomas
+          date="2019"
+          title="Fundamentos de Bases de Datos"
+          link="https://platzi.com/@ivan-mendez/curso/1566-bd/diploma/detalle/"
+        ></Diplomas>
+        <Diplomas
+          date="2018"
+          title="Inglés B1"
+          link="https://user-images.githubusercontent.com/38108288/99884956-029aec00-2c08-11eb-8685-4cf2bff141af.jpg"
+        ></Diplomas>
+        <Diplomas
+          date="2019"
+          title="Desarrollo WEB ONLINE"
+          link="https://platzi.com/@ivan-mendez/curso/1350-html5-css3/diploma/detalle/"
+        ></Diplomas>
+        <Diplomas
+          date="2019"
+          title="Curso de Git y Github"
+          link="https://platzi.com/@ivan-mendez/curso/1170-git-github-2017/diploma/detalle/"
+        ></Diplomas>
+        <Diplomas
+          date="2019"
+          title="Programación Orientada a Objectos"
+          link="https://platzi.com/@ivan-mendez/curso/1474-oop/diploma/detalle/"
+        ></Diplomas>
+        <Diplomas
+          date="2019"
+          title="Introducción a la Terminal y Línea de comandos"
+          link="https://platzi.com/@ivan-mendez/curso/1276-terminal/diploma/detalle/"
+        ></Diplomas>
+        <Diplomas
+          date="2019"
+          title="Curso de Bootstrap 4"
+          link="https://platzi.com/@ivan-mendez/curso/1331-bootstrap/diploma/detalle/"
+        ></Diplomas>
+        <Diplomas
+          date="2019"
+          title="Curso de API REST"
+          link="https://platzi.com/@ivan-mendez/curso/1638-api-rest/diploma/detalle/"
+        ></Diplomas>
+        <Diplomas
+          date="2019"
+          title="Introducción a PHP"
+          link="https://platzi.com/@ivan-mendez/curso/1338-php/diploma/detalle/"
+        ></Diplomas>
+        <Diplomas
+          date="2018"
+          title="Programación Básica"
+          link="https://platzi.com/@ivan-mendez/curso/1050-programacion-basica/diploma/detalle/"
+        ></Diplomas>
+        <Diplomas
+          date="2019"
+          title="Introducción a Java SE"
+          link="https://platzi.com/@ivan-mendez/curso/1631-java-basico/diploma/detalle/"
+        ></Diplomas>
       </Container>
     </div>
   );
