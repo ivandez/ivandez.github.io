@@ -9,8 +9,7 @@ import Project from "./components/Project";
 import Abilities from "./components/Abilities";
 import Diplomas from "./components/Diplomas";
 import ContactForm from "./components/ContactForm";
-
-// import { FormspreeProvider } from "@formspree/react";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -185,6 +184,7 @@ function App() {
       <Container title="Contactame :)">
         <ContactForm></ContactForm>
       </Container>
+      <Footer/>
     </div>
   );
 }
