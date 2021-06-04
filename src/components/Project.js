@@ -1,54 +1,70 @@
 import React from "react";
-// import "./project.css";
 
 const Project = (props) => {
-  let link;
+  let demoLink = props.demo;
 
-  if (props.link) {
-    link = (
-      <div>
-        <br></br>
-        <a
-          className="proyect__link"
-          href={props.link}
-          target="_blank"
-          rel="noreferrer"
-        >
-          Ver online
-        </a>
+  if (demoLink) {
+    return ProjectHasDemoLink(props);
+  } else {
+    return ProjectDoesNotHasDemoLink(props);
+  }
+  function ProjectHasDemoLink(props) {
+    return (
+      <div className="flex items-center bg-white text-center p-3 my-2">
+        <div className="">
+          <img src={props.img} alt="programming-tech-img"></img>
+        </div>
+        <div>
+          <h2 className="text-xl">{props.title}</h2>
+          <p className="text-gray-500 my-2 leading-tight">
+            {props.description}
+          </p>
+          <a
+            className="text-myColor"
+            href={props.repository}
+            target="_blank"
+            rel="noreferrer"
+          >
+            Ver reporsitorio
+          </a>
+          <div>
+            <a
+              className="proyect__link"
+              href={props.demo}
+              target="_blank"
+              rel="noreferrer"
+            >
+              Ver online
+            </a>
+          </div>
+        </div>
       </div>
     );
-  } else {
-    link = null;
   }
-  return (
-    <div className="project flex items-center bg-white text-center p-3 my-2">
-      <div className="">
-        <img
-          className="project_img"
-          src={props.img}
-          alt="programming-language-img"
-        ></img>
+
+  function ProjectDoesNotHasDemoLink(props) {
+    return (
+      <div className="flex items-center bg-white text-center p-3 my-2">
+        <div className="">
+          <img src={props.img} alt="programming-language-img"></img>
+        </div>
+        <div className="project__info">
+          <h2 className="text-xl">{props.title}</h2>
+          <p className="text-gray-500 my-2 leading-tight">
+            {props.description}
+          </p>
+          <a
+            className="text-myColor"
+            href={props.repository}
+            target="_blank"
+            rel="noreferrer"
+          >
+            Ver reporsitorio
+          </a>
+        </div>
       </div>
-      <div className="project__info">
-        <h2 className="text-xl">{props.title}</h2>
-        <p className="text-gray-500 my-2 leading-tight">{props.description}</p>
-        <a
-          className="text-myColor"
-          href={props.repository}
-          target="_blank"
-          rel="noreferrer"
-        >
-          Ver reporsitorio
-        </a>
-        {link}
-      </div>
-      {/* <img
-          src="https://www.costco.com.mx/medias/sys_master/products/h28/h98/16456059879454.jpg"
-          alt="languaje-tech"
-        ></img> */}
-    </div>
-  );
+    );
+  }
 };
 
 export default Project;

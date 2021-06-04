@@ -68,23 +68,31 @@ function App() {
 
       <Container title="Proyectos" id="proyectos">
         <Project
-        title="Aplicación de gestión de gastos"
+          title="Aplicación de gestión de gastos"
           description="Aplicación que te permite gestionar tus gastos que desarrolle para practicar mis conocimientos."
           repository="https://github.com/ivandez/expense-reports"
           img="https://user-images.githubusercontent.com/38108288/99753193-2e10c000-2abc-11eb-9bde-99f37ee9a1e6.png"
-          ></Project>
+        ></Project>
+        <Project
+          title="Portafolio en React"
+          description="Portafolio desarrollado en React.js junto a otros modulos de npm para poder mostrar mí trabajo en la industria tec."
+          repository="https://github.com/ivandez/portafolio-react"
+          img="https://user-images.githubusercontent.com/38108288/99752497-d160d580-2aba-11eb-9bd3-5d9475203793.png"
+          demo="ivandez.github.io"
+        ></Project>
           <Project
-        title="Aplicación de gestión de gastos"
-          description="Aplicación que te permite gestionar tus gastos que desarrolle para practicar mis conocimientos."
-          repository="https://github.com/ivandez/expense-reports"
-          img="https://user-images.githubusercontent.com/38108288/99753193-2e10c000-2abc-11eb-9bde-99f37ee9a1e6.png"
+            title="Web de conferencia"
+            description="Pagina web que simula una conferencia desarrollada en bootstrap."
+            repository="https://github.com/ivandez/PlatziConfHawaii"
+            img="https://user-images.githubusercontent.com/38108288/99753502-b0997f80-2abc-11eb-8b5f-bd4a8ab1222d.png"
+            demo="https://ivandez.github.io/PlatziConfHawaii/"
           ></Project>
-          <Project
-        title="Aplicación de gestión de gastos"
-          description="Aplicación que te permite gestionar tus gastos que desarrolle para practicar mis conocimientos."
-          repository="https://github.com/ivandez/expense-reports"
-          img="https://user-images.githubusercontent.com/38108288/99753193-2e10c000-2abc-11eb-9bde-99f37ee9a1e6.png"
-          ></Project>
+        <Project
+          title="To do Angular"
+          description="Aplicación To Do que desarrolle en angular para practicar mis conocimientos."
+          repository="https://github.com/ivandez/angular-to-do-app"
+          img="https://user-images.githubusercontent.com/38108288/99752694-2bfa3180-2abb-11eb-9a47-ff6267654536.png"
+        ></Project>
       </Container>
     </div>
   );
