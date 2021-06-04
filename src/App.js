@@ -8,6 +8,7 @@ import Education from "./components/Education";
 import Project from "./components/Project";
 import Abilities from "./components/Abilities";
 import Diplomas from "./components/Diplomas";
+import ContactForm from "./components/ContactForm";
 
 // import { FormspreeProvider } from "@formspree/react";
 
@@ -180,6 +181,9 @@ function App() {
           title="Introducción a Java SE"
           link="https://platzi.com/@ivan-mendez/curso/1631-java-basico/diploma/detalle/"
         ></Diplomas>
+      </Container>
+      <Container title="Contactame :)">
+        <ContactForm></ContactForm>
       </Container>
     </div>
   );
