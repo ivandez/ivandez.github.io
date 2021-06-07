@@ -69,7 +69,7 @@ function App() {
         ></Education>
       </Container>
 
-      <Container title="Proyectos" id="proyectos">
+      <Container title="Proyectos" id="project">
         <Project
           title="Aplicación de gestión de gastos"
           description="Aplicación que te permite gestionar tus gastos que desarrolle para practicar mis conocimientos."
@@ -114,7 +114,7 @@ function App() {
           ]}
         ></Abilities>
       </Container>
-      <Container title="Diplomas">
+      <Container title="Diplomas" id="diplomas" idForScroll="diplomas">
           <Diplomas
           date="2019"
           title="CARRERA: Desarrollo Backend con PHP"
@@ -181,7 +181,7 @@ function App() {
           link="https://platzi.com/@ivan-mendez/curso/1631-java-basico/diploma/detalle/"
         ></Diplomas>
       </Container>
-      <Container title="Contactame :)">
+      <Container title="Contactame :)" id="contact">
         <ContactForm></ContactForm>
       </Container>
       <Footer/>

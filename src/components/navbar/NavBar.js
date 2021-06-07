@@ -1,14 +1,15 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import React, { useState } from "react";
+import { Link } from "react-scroll";
 
 const NavBar = () => {
   const [open, setIsOpen] = useState(false);
 
-  let className = "hidden px-3 text-xl lg:inline-block";
+  let className = "hidden px-3 text-xl lg:inline-block cursor-pointer";
 
   if (open === true) {
-    className = "px-3 text-xl lg:inline-block";
+    className = "px-3 text-xl lg:inline-block cursor-pointer";
   }
 
   /**
@@ -32,11 +33,62 @@ const NavBar = () => {
         </div>
         <div className="lg:inline-block">
           <ul className={className}>
-            <li className="navbar__link">sobre mí</li>
-            <li className="navbar__link">experiencia laboral</li>
-            <li className="navbar__link">educación</li>
-            <li className="navbar__link">proyectos</li>
-            <li className="navbar__link">habilidades</li>
+            <Link
+              to="about"
+              smooth={true}
+              duration={1500}
+              className={className}
+            >
+              <li className="navbar__link">sobre mí</li>
+            </Link>
+            <Link
+              to="work-experience"
+              smooth={true}
+              duration={1500}
+              className={className}
+            >
+              <li className="navbar__link">experiencia laboral</li>
+            </Link>
+            <Link
+              to="education"
+              smooth={true}
+              duration={1500}
+              className={className}
+            >
+              <li className="navbar__link">Formación</li>
+            </Link>
+            <Link
+              to="project"
+              smooth={true}
+              duration={1500}
+              className={className}
+            >
+              <li className="navbar__link">proyectos</li>
+            </Link>
+            <Link
+              to="abilities"
+              smooth={true}
+              duration={1500}
+              className={className}
+            >
+              <li className="navbar__link">habilidades</li>
+            </Link>
+            <Link
+              to="diplomas"
+              smooth={true}
+              duration={1500}
+              className={className}
+            >
+              <li className="navbar__link">diplomas</li>
+            </Link>
+            <Link
+              to="contact"
+              smooth={true}
+              duration={1500}
+              className={className}
+            >
+              <li className="navbar__link">contacto</li>
+            </Link>
           </ul>
         </div>
       </navbar>

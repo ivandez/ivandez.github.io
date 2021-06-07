@@ -45,6 +45,7 @@ const Container = (props) => {
   } else {
     return (
       <HasLessThanFiveChildren
+        idForScroll={props.idForScroll}
         id={props.id}
         title={props.title}
         containerChildren={props.children}
