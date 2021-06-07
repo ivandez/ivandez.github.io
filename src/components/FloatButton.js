@@ -21,7 +21,7 @@ export default function FloatButton() {
       >
         <Action text="Curriculum vitae">
           <a
-            href="https://www.linkedin.com/in/iv%C3%A1n-m%C3%A9ndez-rodr%C3%ADguez-43b6b2175/"
+            href="https://drive.google.com/file/d/1LWuXmnWjf9IfBOSSMpnx9mZm8vQMcf_F/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >
