@@ -38,8 +38,8 @@ const AboutMe = () => {
         <br />
 
         <p>
-          Actualmente estoy trabajando como Chief Technical Officer para
-          Manejo.pro donde estoy diseñando, probando e implementando nuevas
+          Mi último trabajo fue como desarrollador freelancer backend con Laravel para
+          Manejo.pro donde estuve diseñando, probando e implementando nuevas
           funcionalidades para la empresa. Anteriormente trabaje en Founduss, una
           startup Venezolana donde me desempeñe como backend developer con
           Laravel, mis responsabilidades fueron crear nuevas funcionalidades,
