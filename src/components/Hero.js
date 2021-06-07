@@ -29,7 +29,7 @@ const Hero = () => {
           </li>
           <li className="hero__social">
             <a
-              href="https://www.instagram.com/ivan_mendez_dev"
+              href="https://www.instagram.com/ivandez_dev/"
               target="_blank"
               rel="noopener noreferrer"
             >
