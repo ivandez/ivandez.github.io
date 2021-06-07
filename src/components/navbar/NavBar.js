@@ -12,14 +12,6 @@ const NavBar = () => {
     className = "px-3 text-xl lg:inline-block cursor-pointer";
   }
 
-  /**
-   * TODO
-   * 1 mover el menu de hamburgesa a la darecha del todo LISTO
-   * 2 hacer mas suave la animacion de abrir el menu
-   * 3 Crear el menu de desktop LISTO
-   * 4 aumentar de tamaño el menu hamburgesa
-   */
-
   return (
     <div className="bg-myColor p-2">
       <nav className="text-white lg:inline-block">
@@ -28,7 +20,7 @@ const NavBar = () => {
           <FontAwesomeIcon
             icon={faBars}
             onClick={() => setIsOpen(!open)}
-            className="self-center justify-self-end lg:hidden"
+            className="self-center justify-self-end lg:hidden text-xl"
           />
         </div>
         <div className="lg:inline-block">
