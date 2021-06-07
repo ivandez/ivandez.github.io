@@ -10,10 +10,13 @@ import Abilities from "./components/Abilities";
 import Diplomas from "./components/Diplomas";
 import ContactForm from "./components/ContactForm";
 import Footer from "./components/Footer";
+import FloatButton from "./components/FloatButton"
 
 function App() {
   return (
     <div className="App">
+      <FloatButton/>
+      
       <NavBar />
 
       <Hero />
