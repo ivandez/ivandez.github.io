@@ -85,14 +85,14 @@ function App() {
         ></Project>
           <Project
             title="Web de conferencia"
-            description="Pagina web que simula una conferencia desarrollada en bootstrap."
+            description="Pagina web en HTML, CSS y otras tecnologias que simula una conferencia desarrollada en bootstrap."
             repository="https://github.com/ivandez/PlatziConfHawaii"
             img="https://user-images.githubusercontent.com/38108288/99753502-b0997f80-2abc-11eb-8b5f-bd4a8ab1222d.png"
             demo="https://ivandez.github.io/PlatziConfHawaii/"
           ></Project>
         <Project
           title="To do Angular"
-          description="Aplicación To Do que desarrolle en angular para practicar mis conocimientos."
+          description="Aplicación To Do que organiza tus tareas que desarrolle en Angular para practicar mis conocimientos."
           repository="https://github.com/ivandez/angular-to-do-app"
           img="https://user-images.githubusercontent.com/38108288/99752694-2bfa3180-2abb-11eb-9a47-ff6267654536.png"
         ></Project>
