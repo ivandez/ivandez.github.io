@@ -22,7 +22,7 @@ const NavBar = () => {
 
   return (
     <div className="bg-myColor p-2">
-      <navbar className="text-white lg:inline-block">
+      <nav className="text-white lg:inline-block">
         <div className="grid grid-rows-1 grid-cols-2 lg:inline">
           <span className="text-2xl font-permanentMarker">Iván Méndez</span>
           <FontAwesomeIcon
@@ -91,7 +91,7 @@ const NavBar = () => {
             </Link>
           </ul>
         </div>
-      </navbar>
+      </nav>
     </div>
   );
 };
