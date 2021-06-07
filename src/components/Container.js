@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { bounceInLeft } from "react-animations";
 import Radium, { StyleRoot } from "radium";
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 
 const styles = {
   bounce: {
