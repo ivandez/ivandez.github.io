@@ -40,7 +40,7 @@ const AboutMe = () => {
           Mi último trabajo fue como desarrollador freelancer backend con
           Laravel para Manejo.pro donde estuve diseñando, probando e
           implementando nuevas funcionalidades para la empresa. Anteriormente
-          trabaje en Founduss, una startup Venezolana donde me desempeñe como
+          trabajé en Founduss, una startup Venezolana donde me desempeñé como
           backend developer con Laravel, mis responsabilidades fueron crear
           nuevas funcionalidades, dar soporte técnico al desarrollador backend y
           frontend y realizar modificaciones a la base de datos, después me

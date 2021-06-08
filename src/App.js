@@ -38,13 +38,13 @@ function App() {
           date="Feb 2021 – Feb 2021"
           company="Freelancer"
           job="desarrollador backend con PHP"
-          jobDescription="Desarrolle un sistema web para exportar una BBDD MySql a excel"
+          jobDescription="Desarrollé un sistema web para exportar una BBDD MySql a excel"
         ></WorkExperience>
         <WorkExperience
           date="Feb 2021 – Mar 2021"
           company="Workana"
           job="desarrollador backend con PHP"
-          jobDescription="Desarrolle un scraper en php para extraer informacion de goolge y twitter."
+          jobDescription="Desarrollé un scraper en php para extraer informacion de google y twitter."
         ></WorkExperience>
         <WorkExperience
           date="Mar 2021 – Mar 2021"
@@ -56,7 +56,7 @@ function App() {
           date="Mar 2021 – Abr 2021"
           company="Workana"
           job="desarrollador backend con laravel"
-          jobDescription="Desarrolle una API para una aplicación móvil."
+          jobDescription="Desarrollé una API para una aplicación móvil."
         ></WorkExperience>
       </Container>
 
@@ -75,13 +75,13 @@ function App() {
       <Container title="Proyectos" id="project">
         <Project
           title="Aplicación de gestión de gastos"
-          description="Aplicación que te permite gestionar tus gastos que desarrolle para practicar mis conocimientos."
+          description="Aplicación que te permite gestionar tus gastos que desarrollé para practicar mis conocimientos."
           repository="https://github.com/ivandez/expense-reports"
           img="https://user-images.githubusercontent.com/38108288/99753193-2e10c000-2abc-11eb-9bde-99f37ee9a1e6.png"
         ></Project>
         <Project
           title="Portafolio en React"
-          description="Portafolio desarrollado en React.js junto a otros modulos de npm para poder mostrar mí trabajo en la industria tec."
+          description="Portafolio desarrollado en React.js junto a otros módulos de npm para poder mostrar mí trabajo en la industria tec."
           repository="https://github.com/ivandez/portafolio-react"
           img="https://user-images.githubusercontent.com/38108288/99752497-d160d580-2aba-11eb-9bd3-5d9475203793.png"
           demo="ivandez.github.io"
@@ -95,7 +95,7 @@ function App() {
           ></Project>
         <Project
           title="To do Angular"
-          description="Aplicación To Do que organiza tus tareas que desarrolle en Angular para practicar mis conocimientos."
+          description="Aplicación To Do que organiza tus tareas que desarrollé en Angular para practicar mis conocimientos."
           repository="https://github.com/ivandez/angular-to-do-app"
           img="https://user-images.githubusercontent.com/38108288/99752694-2bfa3180-2abb-11eb-9a47-ff6267654536.png"
         ></Project>
@@ -184,7 +184,7 @@ function App() {
           link="https://platzi.com/@ivan-mendez/curso/1631-java-basico/diploma/detalle/"
         ></Diplomas>
       </Container>
-      <Container title="Contactame :)" id="contact">
+      <Container title="Contactamé :)" id="contact">
         <ContactForm></ContactForm>
       </Container>
       <Footer/>

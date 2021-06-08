@@ -25,7 +25,7 @@ const Project = (props) => {
             target="_blank"
             rel="noreferrer"
           >
-            Ver reporsitorio
+            Ver repositorio
           </a>
           <div>
             <a
@@ -59,7 +59,7 @@ const Project = (props) => {
             target="_blank"
             rel="noreferrer"
           >
-            Ver reporsitorio
+            Ver repositorio
           </a>
         </div>
       </div>
