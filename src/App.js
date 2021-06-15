@@ -184,7 +184,7 @@ function App() {
           link="https://platzi.com/@ivan-mendez/curso/1631-java-basico/diploma/detalle/"
         ></Diplomas>
       </Container>
-      <Container title="Contactamé :)" id="contact">
+      <Container title="Contáctame :)" id="contact">
         <ContactForm></ContactForm>
       </Container>
       <Footer/>
