@@ -14,6 +14,7 @@ export default function FloatButton() {
       <Fab
         mainButtonStyles={{
           backgroundColor: "#3A66FF",
+          outline: 'none',
         }}
         style={{ bottom: 0, right: 0 }}
         icon={<FontAwesomeIcon icon={faPlus} />}
