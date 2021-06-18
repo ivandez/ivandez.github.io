@@ -1,5 +1,9 @@
 import React from "react";
 
+
+// TODO
+//  me quede en la parte donde tengo que ingresa el componente modal aqui
+// despues tengo que cambiar los estilos para que se paresca a el de anderson
 const Project = (props) => {
   let demoLink = props.demo;
 
