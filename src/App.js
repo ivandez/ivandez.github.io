@@ -15,8 +15,8 @@ import FloatButton from "./components/FloatButton"
 function App() {
   return (
     <div className="App">
-      <FloatButton/>
-      
+      <FloatButton />
+
       <NavBar />
 
       <Hero />
@@ -86,13 +86,20 @@ function App() {
           img="https://user-images.githubusercontent.com/38108288/99752497-d160d580-2aba-11eb-9bd3-5d9475203793.png"
           demo="ivandez.github.io"
         ></Project>
-          <Project
-            title="Web de conferencia"
-            description="Pagina web en HTML, CSS y otras tecnologias que simula una conferencia desarrollada en bootstrap."
-            repository="https://github.com/ivandez/PlatziConfHawaii"
-            img="https://user-images.githubusercontent.com/38108288/99753502-b0997f80-2abc-11eb-8b5f-bd4a8ab1222d.png"
-            demo="https://ivandez.github.io/PlatziConfHawaii/"
-          ></Project>
+        <Project
+          title="COVID-19 TRACKER"
+          description="Aplicación que te permite ver los infectados, fallecidos y fatalidades de COVID-19 alrededor del mundo."
+          repository="https://github.com/ivandez/vuejs-covid-tracker"
+          img="https://user-images.githubusercontent.com/38108288/124536695-67493680-dde6-11eb-8f07-ee97b2dfa6da.png"
+          demo="https://ivandez.github.io/vuejs-covid-tracker/"
+        ></Project>
+        <Project
+          title="Web de conferencia"
+          description="Pagina web en HTML, CSS y otras tecnologias que simula una conferencia desarrollada en bootstrap."
+          repository="https://github.com/ivandez/PlatziConfHawaii"
+          img="https://user-images.githubusercontent.com/38108288/99753502-b0997f80-2abc-11eb-8b5f-bd4a8ab1222d.png"
+          demo="https://ivandez.github.io/PlatziConfHawaii/"
+        ></Project>
         <Project
           title="To do Angular"
           description="Aplicación To Do que organiza tus tareas que desarrollé en Angular para practicar mis conocimientos."
@@ -118,7 +125,7 @@ function App() {
         ></Abilities>
       </Container>
       <Container title="Diplomas" id="diplomas" idForScroll="diplomas">
-          <Diplomas
+        <Diplomas
           date="2019"
           title="CARRERA: Desarrollo Backend con PHP"
           link="https://platzi.com/@ivan-mendez/carrera/57-desarrollo-php/diploma/detalle/"
@@ -187,7 +194,7 @@ function App() {
       <Container title="Contáctame :)" id="contact">
         <ContactForm></ContactForm>
       </Container>
-      <Footer/>
+      <Footer />
     </div>
   );
 }
