@@ -10,7 +10,7 @@ import Abilities from "./components/Abilities";
 import Diplomas from "./components/Diplomas";
 import ContactForm from "./components/ContactForm";
 import Footer from "./components/Footer";
-import FloatButton from "./components/FloatButton"
+import FloatButton from "./components/FloatButton";
 
 function App() {
   return (
@@ -120,7 +120,9 @@ function App() {
             "SQL/MySQL Workbench",
             "Git/Github",
             "Inglés",
-            "Ubuntu",
+            "GNU/Linux",
+            "TDD",
+            "Docker",
           ]}
         ></Abilities>
       </Container>
