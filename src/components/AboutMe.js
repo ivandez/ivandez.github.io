@@ -17,7 +17,7 @@ const AboutMe = () => {
         <br />
 
         <p>
-          Soy una persona presistente y me gusta afrontar nuevos retos, como lo
+          Soy una persona persistente y me gusta afrontar nuevos retos, como lo
           puedes ver en mi perfil de
           <a
             href="https://github.com/ivandez"
