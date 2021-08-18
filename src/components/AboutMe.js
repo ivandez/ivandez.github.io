@@ -6,16 +6,19 @@ const AboutMe = () => {
       <h1 className="font-bold text-3xl pb-3">Sobre Mí</h1>
       <div className="about__text">
         <p>
-          Soy desarrollador backend, dedico parte de mi tiempo libre a aprender
-          nuevas tecnologías y a actualizarme con las que ya domino, tengo
-          experiencia con HTML, CSS, JavaScript, Laravel, PHP, MySql y Node.js,
-          construyo páginas web y APIs, soy bueno en lo que hago.
+          Soy un programador especializado en backend con PHP y Laravel con 3
+          años de experiencia laboral. Soy Inglés es B1 avalado por FUNDAUC
+          Universidad de Carabobo. Disfruto trabajar en equipo, compartir ideas
+          e innovar. Siempre procuro demostrar y promover una actitud que genere
+          confianza tanto a las personas/empresas que me contratan como a los
+          grupos de trabajo donde me integro. Soy responsable, asumo los
+          proyectos como si fueran propios y hago el mejor trabajo posible.
         </p>
         <br />
 
         <p>
-          Soy curioso y me gusta afrontar nuevos retos, como lo puedes ver en mi
-          perfil de
+          Soy una persona presistente y me gusta afrontar nuevos retos, como lo
+          puedes ver en mi perfil de
           <a
             href="https://github.com/ivandez"
             target="_blank"
@@ -37,14 +40,7 @@ const AboutMe = () => {
         <br />
 
         <p>
-          Mi último trabajo fue como desarrollador freelancer backend con
-          Laravel para Manejo.pro donde estuve diseñando, probando e
-          implementando nuevas funcionalidades para la empresa. Anteriormente
-          trabajé en Founduss, una startup Venezolana donde me desempeñé como
-          backend developer con Laravel, mis responsabilidades fueron crear
-          nuevas funcionalidades, dar soporte técnico al desarrollador backend y
-          frontend y realizar modificaciones a la base de datos, después me
-          desempeñe como freelancer en
+          Tengo más 10 proyectos completados en
           <a
             href="https://www.workana.com/freelancer/040f508920d49fd82b2e473646587c4d"
             target="_blank"
@@ -53,14 +49,16 @@ const AboutMe = () => {
           >
             Workana
           </a>
-          donde mi buena reputación dentro de la plataforma me ha permitido
-          obtener clientes fuera de esta.
+          y más de 2 contrataciones por segunda vez de mis clientes dentro de la
+          plataforma, mi buena reputación dentro de la plataforma me ha
+          permitido obtener clientes fuera de esta.
         </p>
         <br />
 
         <p>
-          Fuera del trabajo me gusta jugar fútbol, leer, aprender nuevas
-          habilidades y conocer nuevos lugares.
+          Fuera del trabajo me gusta leer sobre tecnologica, actualizar mi
+          conocimientos de las herramientas que uso para trabajar y jugar
+          futbol.
         </p>
 
         <p>
