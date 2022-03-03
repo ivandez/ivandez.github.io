@@ -65,9 +65,9 @@ const Container = (props) => {
   function HasMoreThanFiveChildren(props) {
     let childrenToHide = props.containerChildren.slice(5);
     let childrenToShow = props.containerChildren.slice(0, 5);
-    let texto = "Mostrar más";
+    let texto = "Show more";
     if (open === true) {
-      texto = "Mostrar menos";
+      texto = "Show less";
     }
     return (
       <div className="container centerContainer" id={props.id}>

@@ -29,7 +29,7 @@ const Project = (props) => {
             target="_blank"
             rel="noreferrer"
           >
-            Ver repositorio
+            Go to repository
           </a>
           <div>
             <a
@@ -38,7 +38,7 @@ const Project = (props) => {
               target="_blank"
               rel="noreferrer"
             >
-              Ver online
+              View demo
             </a>
           </div>
         </div>
@@ -63,7 +63,7 @@ const Project = (props) => {
             target="_blank"
             rel="noreferrer"
           >
-            Ver repositorio
+            Go to repository
           </a>
         </div>
       </div>

@@ -11,7 +11,7 @@ const Diplomas = (props) => (
       target="_blank"
       rel="noreferrer"
     >
-      Ver diploma
+      Go to certificate
     </a>
   </div>
 );

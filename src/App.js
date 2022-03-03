@@ -74,36 +74,36 @@ function App() {
 
       <Container title="Proyectos" id="project">
         <Project
-          title="Weather app, node js"
-          description="Aplicación que te permite gestionar tus gastos que desarrollé para practicar mis conocimientos."
-          repository="https://github.com/ivandez/expense-reports"
-          img="https://user-images.githubusercontent.com/38108288/99753193-2e10c000-2abc-11eb-9bde-99f37ee9a1e6.png"
-          demo="https://weather-app-express-node.herokuapp.com/"
+          title="Weather app"
+          description="Application developed with nodejs and weather stack API to fetch the weather around the world."
+          repository="https://github.com/ivandez/express-weather-app"
+          img="https://user-images.githubusercontent.com/38108288/99753671-138b1680-2abd-11eb-8451-e84fc904759f.png"
+          demo="weather-app-express-node.herokuapp.com"
         ></Project>
         <Project
-          title="Portafolio en React"
-          description="Portafolio desarrollado en React.js junto a otros módulos de npm para poder mostrar mí trabajo en la industria tec."
+          title="React portfolio"
+          description="Portfolio developed with reactjs, react-router, and other frontend libraries as such Tailwind."
           repository="https://github.com/ivandez/portafolio-react"
           img="https://user-images.githubusercontent.com/38108288/99752497-d160d580-2aba-11eb-9bd3-5d9475203793.png"
           demo="ivandez.github.io"
         ></Project>
         <Project
           title="COVID-19 TRACKER"
-          description="Aplicación que te permite ver los infectados, fallecidos y fatalidades de COVID-19 alrededor del mundo."
+          description="Web application developed with Vue.js and deployed on GH-PAGES to fetch the data of covid-19 around the world."
           repository="https://github.com/ivandez/vuejs-covid-tracker"
           img="https://user-images.githubusercontent.com/38108288/124536695-67493680-dde6-11eb-8f07-ee97b2dfa6da.png"
           demo="https://ivandez.github.io/vuejs-covid-tracker/"
         ></Project>
         <Project
           title="Real time chat app"
-          description="Aplicación que te permite gestionar tus gastos que desarrollé para practicar mis conocimientos."
+          description="Application developed with nodejs and socket.io and deployed on Heroku to chat in real time with your friends."
           repository="https://github.com/ivandez/expense-reports"
-          img="https://user-images.githubusercontent.com/38108288/99753193-2e10c000-2abc-11eb-9bde-99f37ee9a1e6.png"
+          img="https://user-images.githubusercontent.com/38108288/99753671-138b1680-2abd-11eb-8451-e84fc904759f.png"
           demo="https://ivan-real-time-chat-expressjs.herokuapp.com/"
         ></Project>
         <Project
-          title="Web de conferencia"
-          description="Pagina web en HTML, CSS y otras tecnologias que simula una conferencia desarrollada en bootstrap."
+          title="Event lading page"
+          description="Web page developed with HTML, CSS and other technologies that simulates a conference developed in bootstrap."
           repository="https://github.com/ivandez/PlatziConfHawaii"
           img="https://user-images.githubusercontent.com/38108288/99753502-b0997f80-2abc-11eb-8b5f-bd4a8ab1222d.png"
           demo="https://ivandez.github.io/PlatziConfHawaii/"
