@@ -31,7 +31,7 @@ const NavBar = () => {
               duration={1500}
               className={className}
             >
-              <li className="navbar__link">sobre mí</li>
+              <li className="navbar__link">About me</li>
             </Link>
             <Link
               to="work-experience"
@@ -39,7 +39,7 @@ const NavBar = () => {
               duration={1500}
               className={className}
             >
-              <li className="navbar__link">experiencia laboral</li>
+              <li className="navbar__link">Work Experience</li>
             </Link>
             <Link
               to="education"
@@ -47,7 +47,7 @@ const NavBar = () => {
               duration={1500}
               className={className}
             >
-              <li className="navbar__link">Formación</li>
+              <li className="navbar__link">Education</li>
             </Link>
             <Link
               to="project"
@@ -55,7 +55,7 @@ const NavBar = () => {
               duration={1500}
               className={className}
             >
-              <li className="navbar__link">proyectos</li>
+              <li className="navbar__link">Projects</li>
             </Link>
             <Link
               to="abilities"
@@ -63,7 +63,7 @@ const NavBar = () => {
               duration={1500}
               className={className}
             >
-              <li className="navbar__link">habilidades</li>
+              <li className="navbar__link">Abilities</li>
             </Link>
             <Link
               to="diplomas"
@@ -71,7 +71,7 @@ const NavBar = () => {
               duration={1500}
               className={className}
             >
-              <li className="navbar__link">diplomas</li>
+              <li className="navbar__link">Certificates</li>
             </Link>
             <Link
               to="contact"
@@ -79,7 +79,7 @@ const NavBar = () => {
               duration={1500}
               className={className}
             >
-              <li className="navbar__link">contacto</li>
+              <li className="navbar__link">Contact</li>
             </Link>
           </ul>
         </div>
