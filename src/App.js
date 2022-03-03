@@ -109,7 +109,7 @@ function App() {
           demo="https://ivandez.github.io/PlatziConfHawaii/"
         ></Project>
       </Container>
-      <Container title="Habilidades" id="abilities">
+      <Container title="Abilities" id="abilities">
         <Abilities
           abilities={[
             "HTML5",
