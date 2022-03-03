@@ -60,15 +60,15 @@ function App() {
         ></WorkExperience>
       </Container>
 
-      <Container title="Formación" id="education" idForScroll="educationScroll">
+      <Container title="Education" id="education" idForScroll="educationScroll">
         <Education
           institution="U.E.P María Francia"
-          degree="Bachiller en ciencias"
+          degree="Bachelor of Science"
         ></Education>
 
         <Education
-          institution="Instituto Universitario Antonio Jose de Sucre"
-          degree="Técnico Superior en Informática"
+          institution="University Antonio Jose de Sucre"
+          degree="Higher Technician in Computer Science"
         ></Education>
       </Container>
 
