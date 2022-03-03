@@ -74,10 +74,11 @@ function App() {
 
       <Container title="Proyectos" id="project">
         <Project
-          title="Aplicación de gestión de gastos"
+          title="Weather app, node js"
           description="Aplicación que te permite gestionar tus gastos que desarrollé para practicar mis conocimientos."
           repository="https://github.com/ivandez/expense-reports"
           img="https://user-images.githubusercontent.com/38108288/99753193-2e10c000-2abc-11eb-9bde-99f37ee9a1e6.png"
+          demo="https://weather-app-express-node.herokuapp.com/"
         ></Project>
         <Project
           title="Portafolio en React"
@@ -94,17 +95,18 @@ function App() {
           demo="https://ivandez.github.io/vuejs-covid-tracker/"
         ></Project>
         <Project
+          title="Real time chat app"
+          description="Aplicación que te permite gestionar tus gastos que desarrollé para practicar mis conocimientos."
+          repository="https://github.com/ivandez/expense-reports"
+          img="https://user-images.githubusercontent.com/38108288/99753193-2e10c000-2abc-11eb-9bde-99f37ee9a1e6.png"
+          demo="https://ivan-real-time-chat-expressjs.herokuapp.com/"
+        ></Project>
+        <Project
           title="Web de conferencia"
           description="Pagina web en HTML, CSS y otras tecnologias que simula una conferencia desarrollada en bootstrap."
           repository="https://github.com/ivandez/PlatziConfHawaii"
           img="https://user-images.githubusercontent.com/38108288/99753502-b0997f80-2abc-11eb-8b5f-bd4a8ab1222d.png"
           demo="https://ivandez.github.io/PlatziConfHawaii/"
-        ></Project>
-        <Project
-          title="To do Angular"
-          description="Aplicación To Do que organiza tus tareas que desarrollé en Angular para practicar mis conocimientos."
-          repository="https://github.com/ivandez/angular-to-do-app"
-          img="https://user-images.githubusercontent.com/38108288/99752694-2bfa3180-2abb-11eb-9a47-ff6267654536.png"
         ></Project>
       </Container>
       <Container title="Habilidades" id="abilities">
