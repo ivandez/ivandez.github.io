@@ -11,8 +11,8 @@ const Hero = () => {
     <section className="lg:bg-centerCustom lg:bg-fixed bg-hero bg-no-repeat bg-center bg-cover h-screen flex justify-center items-center text-center flex-col text-white">
       <div className="text-2xl lg:text-4xl">
         <h1 className="font-permanentMarker">Iván Méndez</h1>
-        <h2>Técnico Superior en Informática</h2>
-        <h2>"Desarrollador Back-end"</h2>
+        <h2>Higher Technician in Computer Science</h2>
+        <h2>Web developer</h2>
       </div>
       <div className="m-3">
         <ul className="hero__list -space-x-24 text-3xl lg:text-5xl lg:-space-x-40">
