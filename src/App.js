@@ -24,39 +24,39 @@ function App() {
       <AboutMe />
 
       <Container
-        title="Experiencia laboral"
+        title="Work Experience"
         id="work-experience"
         idForScroll="workExperience"
       >
         <WorkExperience
           date="Oct 2019 – Mar 2020"
-          company="Founduss"
-          job="desarrollador backend con laravel"
-          jobDescription="Cree un sistema automatizado de reserva de servicios empresariales, cree una BBDD SQL, cree una API rest para una app movil."
+          company="Profesional freelancer"
+          job="Web developer"
+          jobDescription="Freelancer in web programming with 10 projects successfully completed in Workana
+
+
+          My job is to create and propose IT solutions to my client's problems, I use NODE, EXPRESS, JAVASCRIPT, PHP, LARAVEL, HTML, CSS, TAILWIND, BOOTSTRAP and MySQL technologies.
+          
+          
+          My solutions include the design and implementation of databases, APIs, and the development of business logic with the before mentioned technologies and frameworks.Cree un sistema automatizado de reserva de servicios empresariales, cree una BBDD SQL, cree una API rest para una app movil."
         ></WorkExperience>
         <WorkExperience
           date="Feb 2021 – Feb 2021"
-          company="Freelancer"
-          job="desarrollador backend con PHP"
-          jobDescription="Desarrollé un sistema web para exportar una BBDD MySql a excel"
+          company="PROYECTA INFORMÁTICA SOLUCIONES PROFESIONALES SL"
+          job="Full-stack Developer"
+          jobDescription="I extend and improve an inventory management system"
         ></WorkExperience>
         <WorkExperience
           date="Feb 2021 – Mar 2021"
-          company="Workana"
-          job="desarrollador backend con PHP"
-          jobDescription="Desarrollé un scraper en php para extraer informacion de google y twitter."
+          company="Universitas Fundación"
+          job="Web Master"
+          jobDescription="Professional internships as a Higher Computer Technician exercising the position of webmaster."
         ></WorkExperience>
         <WorkExperience
           date="Mar 2021 – Mar 2021"
-          company="Talently"
-          job="desarrollador backend con laravel"
-          jobDescription="Cree una página web, con panel administrativo, para crear formularios dinámicos para entrevistar programadores."
-        ></WorkExperience>
-        <WorkExperience
-          date="Mar 2021 – Abr 2021"
-          company="Workana"
-          job="desarrollador backend con laravel"
-          jobDescription="Desarrollé una API para una aplicación móvil."
+          company="Founduss"
+          job="Back-end Developer"
+          jobDescription="I worked as a back-end developer, my main task was to develop a reservation system for PYMES, fix bugs, and improve the system of Founduss."
         ></WorkExperience>
       </Container>
 
